@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #efefef;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+}
+figure {
+    width: 100%;
+    position: relative;
+}
+figure .mapa {
+    width: 100%;
+    vertical-align: top;
+}
+figure .icono {
+    position: absolute;
+    top: 25.1%;
+    left: 43.3%;
+    font-size:20px;
+    color: #ea4335;
+}
